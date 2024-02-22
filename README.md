@@ -22,7 +22,7 @@ Rappel : Terraform peut importer l'infrastructure existante. Cela vous permet de
 
 5. Taper la commande ```terraform plan``` :  si le plan contient à la fois « import » et « change », vérifiez la définition des arguments ;
 
-![alt text](<image/4. declaration ressource dark.png>) 
+![alt text](<image/5. terraform plan dark.png>)
 ![alt text](<image/5. info plan  dark.png>)
 
 6. Taper la commande ```terraform apply --auto-approve``` 
