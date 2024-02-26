@@ -5,11 +5,6 @@ provider "aws" {
 }
 
 
-data "aws_instance" "resource_to_import" {
-  instance_id = "i-037b7f117442108c9"
-}
-
-
 resource "aws_instance" "declare_the_resource_to_be_imported" {
   ami           = data.aws_instance.resource_to_import.ami
   instance_type = data.aws_instance.resource_to_import.instance_type
