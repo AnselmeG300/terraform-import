@@ -1,3 +1,3 @@
 data "aws_instance" "resource_to_import" {
-  instance_id = "i-037b7f117442108c9"
+  instance_id = "i-00a62743f1ef88f44"
 }
